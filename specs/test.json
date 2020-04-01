@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.2",
   "info": {
-    "title": "Tittel på API-et",
+    "title": "IKKE PUBLISER! Kun for testing! Tittel på API-et",
     "description": "Beskrivelse av API-et",
     "version": "1.0.2",
     "contact": {
@@ -16,7 +16,7 @@
   },
   "tags": [
     {
-      "name": "overskrift_å_sortere_på",
+      "name": "SOAP-operasjoner",
       "description": "beskrivelse av overskriften"
     }
   ],
@@ -27,12 +27,12 @@
     }
   ],
   "paths": {
-    "/regnskap": {
-      "get": {
+    "getEnhet": {
+      "post": {
         "tags": [
-          "overskrift_å_sortere_på"
+          "SOAP-operasjoner"
         ],
-        "summary": "beskrivelse av operasjon (vises i FDK)",
+        "summary": "Parametre: orgnr (xsd:string) \Returnerer: enhetData",
         "description": "beskrivelse av operasjon (vises ikke)",
         "responses": {
           "200": {
