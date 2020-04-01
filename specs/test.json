@@ -32,7 +32,7 @@
         "tags": [
           "SOAP-operasjoner"
         ],
-        "summary": "Parametre: orgnr (xsd:string) \Returnerer: enhetData",
+        "summary": "Parametre: orgnr (xsd:string) \\Returnerer: enhetData",
         "description": "beskrivelse av operasjon (vises ikke)",
         "responses": {
           "200": {
